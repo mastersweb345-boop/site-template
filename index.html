@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{COMPANY_NAME}}</title>
+<meta name="description" content="{{META_DESCRIPTION}}">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="brand">{{COMPANY_NAME}}</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>{{COMPANY_NAME}}</h1>
+  <p>{{TAGLINE}}</p>
+  <!-- Optional: delete this block if the business doesn't have 3 clean focus areas -->
+  <div class="pillars">
+    <div class="pillar">{{PILLAR_1}}</div>
+    <div class="pillar">{{PILLAR_2}}</div>
+    <div class="pillar">{{PILLAR_3}}</div>
+  </div>
+</div>
+
+<main>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>{{ABOUT_TEXT}}</p>
+  </section>
+
+  <section id="programs">
+    <h2>{{PROGRAMS_HEADING}}</h2>
+    <!-- Add/remove .card blocks to match however many services/programs actually exist -->
+    <div class="programs">
+      <div class="card">
+        <h3>{{PROGRAM_1_TITLE}}</h3>
+        <p>{{PROGRAM_1_DESC}}</p>
+      </div>
+      <div class="card">
+        <h3>{{PROGRAM_2_TITLE}}</h3>
+        <p>{{PROGRAM_2_DESC}}</p>
+      </div>
+      <div class="card">
+        <h3>{{PROGRAM_3_TITLE}}</h3>
+        <p>{{PROGRAM_3_DESC}}</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <!-- Populate with the client's real photos from images/. Drop this section if there are none. -->
+    <div class="gallery">
+      <img src="images/REPLACE_ME.jpg" alt="">
+    </div>
+  </section>
+
+  <section id="cta">
+    <h2>Get Involved</h2>
+    <p>{{CTA_TEXT}} <a href="contact.html">Get in touch</a>.</p>
+  </section>
+
+</main>
+
+<footer>
+  <p>{{COMPANY_NAME}}{{REGISTRATION_LINE}}</p>
+  <p>{{ADDRESS}}</p>
+</footer>
+
+</body>
+</html>

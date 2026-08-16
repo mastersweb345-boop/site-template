@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact &mdash; {{COMPANY_NAME}}</title>
+<meta name="description" content="Get in touch with {{COMPANY_NAME}}.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="brand">{{COMPANY_NAME}}</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>Contact Us</h1>
+  <p>{{CONTACT_SUBTEXT}}</p>
+</div>
+
+<main>
+
+  <section id="details">
+    <h2>Reach Us Directly</h2>
+    <div class="info-card">
+      <p><strong>Address:</strong> {{ADDRESS}}</p>
+      <p><strong>Phone:</strong> {{PHONE_LINKS}}</p>
+      {{OPTIONAL_REGISTRATION_LINE}}
+    </div>
+  </section>
+
+  <section id="inquiry">
+    <h2>Send an Inquiry</h2>
+    <div class="form-wrap">
+      <iframe src="{{GOOGLE_FORM_EMBED_URL}}">Loading&hellip;</iframe>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>{{COMPANY_NAME}}{{REGISTRATION_LINE}}</p>
+  <p>{{ADDRESS}}</p>
+</footer>
+
+</body>
+</html>
